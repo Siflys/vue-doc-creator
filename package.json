@@ -1,0 +1,24 @@
+{
+  "name": "vue-doc-creator",
+  "version": "1.0.0",
+  "description": "This ia a fast and light document creator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siflys/vue-doc-creator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siflys/vue-doc-creator/issues"
+  },
+  "homepage": "https://github.com/Siflys/vue-doc-creator#readme",
+  "dependencies": {
+    "highlight.js": "^11.5.1",
+    "marked": "^4.0.16"
+  }
+}
