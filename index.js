@@ -21,7 +21,7 @@ class ViteDocCreator {
     // 执行工具初始函数
     this.initialize();
   }
-  initialize () {
+  initialize () { 
     // 初始化项目文件夹
     initFolders(this.option);
     // 初始化项目文件

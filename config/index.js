@@ -19,8 +19,9 @@ const title = "This is my first Document";
 const outerPath = {
   rootPath: resolve(__dirname, '../../../'),
   srcPath: resolve(__dirname, '../../../src/'),
-  htmlPath: resolve(__dirname, '../../../html/'),
-  jsPath: resolve(__dirname, '../../../js/'),
+  htmlPath: resolve(__dirname, '../../../src/html/'),
+  jsPath: resolve(__dirname, '../../../src/js/'),
+  cssPath: resolve(__dirname, '../../../src/css/'),
   mdPath: resolve(__dirname, '../../../workspace/')
 }
 
@@ -29,7 +30,7 @@ const outerPath = {
  * temp_files ->
  *        css ->
  *        js  ->
- *        html-> index.html/md.html
+ *        html-> index.html/md.html/welcome.html
  */
 const innerDir = {
   rootDir: resolve(__dirname, '../temp_files/'),
