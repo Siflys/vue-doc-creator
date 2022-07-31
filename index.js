@@ -25,9 +25,9 @@ class ViteDocCreator {
     // 初始化项目文件夹
     initFolders(this.option);
     // 初始化项目文件
-    initFiles(this.option);
+    // initFiles(this.option);
     // 初始化监听html与markdown文件及文件夹变化程序
-    initWatchers(this.option);
+    // initWatchers(this.option);
   }
 }
 
